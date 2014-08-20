@@ -1,0 +1,30 @@
+Notes on Sentiment Analysis Tool Bookreview
+August   19, 2014
+
+       This project will develop a sentiment analysis tool to analyze customer book reviews and give  authors and publishers an ideal about the customers evaluation on a book.
+       The customers reviews on a book are collected from web, emails or other sources.  The final target of the project is to let Bookreview  to be able  to summarize an individual customer review (if it is a long review); list all aspects in the review and rate the aspects; list typical sentiment representation in the review.  Also it will synthesize all reviews and  give a final rate to the book; list all iimportant aspects and their rates.  
+       According to the targets, this project is not a simple development one but a research and development project. Some goals may not be reached in a short term. So, we¡¯ll incremental build it. 
+       To reach the goals, it has several phases:  initial phase, medial phase, and final phase.
+       
+* Initial Phase
+Develop a simple Bookreview. 
+Input: individual  review in plain text
+Preprocess on text:  split text into sentences and tokenize each sentences
+Classifier: Polarity  Naive Bayes Classifier, 
+
+This version has implemented the initial Phase functions requirements 
+
+* Medial Phase
+Enhance Bookreview, build special lexicons and raise the accurate of the classifier to more than 90%
+Extract aspects  from reviews, give  rates on them 
+Classifier: more complicate classifier 
+synthesize all reviews and  give a final rate.
+
+This phase will last half year from now on.
+
+* Final Phase
+summarize individual review; 
+Extract typical sentiment representations in reviews
+
+This phase will last more than half year.
+¡¡¡¡¡¡

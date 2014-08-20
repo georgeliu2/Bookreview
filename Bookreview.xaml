@@ -1,0 +1,13 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Name="BookreviewWin"
+        Title="Bookreview" Height="482.547" Width="615.849">
+    <Grid Margin="0,0,-0.4,-1.2" Height="454" VerticalAlignment="Top">
+        <Button x:Name="bt_Analyze" Content="Analyze" HorizontalAlignment="Left" Margin="106,322,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="tb_text" HorizontalAlignment="Left" Height="239" Margin="56,42,0,0" TextWrapping="Wrap" Text="I like the book." VerticalAlignment="Top" Width="505"/>
+        <Label x:Name="lb_text" Content="Enter text to be analyzed here" HorizontalAlignment="Left" Margin="56,8,0,0" VerticalAlignment="Top" Width="157"/>
+        <Button x:Name="bt_Clear" Content="Clear" HorizontalAlignment="Left" Margin="281,322,0,0" VerticalAlignment="Top" Width="75" Click="bt_Clear_Click"/>
+        <Button x:Name="bt_Quit" Content="Quit" HorizontalAlignment="Left" Margin="452,322,0,0" VerticalAlignment="Top" Width="75" Click="bt_Quit_Click"/>
+        <TextBox x:Name="tb_Result" HorizontalAlignment="Left" Height="51" Margin="56,380,0,0" TextWrapping="Wrap" Text="Analysis result" VerticalAlignment="Top" Width="505"/>
+
+    </Grid>
+</Window>
